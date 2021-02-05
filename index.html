@@ -1,12 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>2021 Core Interaction</title>
-	<link rel="stylesheet" href="./style.css">
+	<title>Title</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="js/script.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.">
 </head>
-<body>
-	<h1>Ashley's Website</h1>
-	<p>This is my page on GitHub.</p>
-</body>
-</html>
+<!-- About -->
+	<div class="wrapper">
+		<input type="checkbox" name="nav-check" id="nav-check">
+		<section class="sec-about" id="sec-about">
+			<div class="content">
+				<img id="self" src="images/img.png" alt="portrait">
+				<h1 class="about">About</h1>
+				<ul class="info">
+					<li>Ashley Yeo Hye Chae.</li>
+					<li>Communication Design major in Parsons School of Design.</li>
+					<li>Currently in Seoul, South Korea.</li>
+					<li>Two dogs, Leo and Hanzo.</li>
+				</ul>
+			</div>
+		</section>
+<!-- Projects -->
+				<div class="col-big">
+					<section class="studio" id="sec-projects">
+						<div class="background"></div>
+						<div class="project-head">
+							<h1 class="project">Projects</h1>
+							<h3 class="studio1">Core 2: Interaction Studio</h3>
+						</div>
+						<div class="container2">
+						<img class="image" src="images/x-platform.png" alt="x-platform storytelling">
+						<div class="overlay">
+							<div class="text3" OnClick="location.href ='https://github.com/chaey976/X-Platform'" style="cursor:pointer;">X-Platform Storytelling</div>
+						</div>
+						</div>
+					</section>
+				</div>
+<!-- Navbar -->
+		<nav role="navigation">
+			<label for="nav-check">
+				<div class="container" onclick="myFunction(this)">
+ 					<div class="bar1"></div>
+  					<div class="bar2"></div>
+  					<div class="bar3"></div>
+				</div>
+			</label>
+			
+			<ul class="navigation">
+				<li><a href="#sec-home">HOME</a></li>
+				<li><a href="#sec-about">ABOUT</a></li>
+				<li><a href="#sec-projects">PROJECTS</a></li>
+			</ul>
+		</nav>
+	</div>
+
+<!-- Homepg -->
+		<div class="container1">
+			<span class="text1">Ashley Yeo Hye Chae</span>
+			<span class="text2">Homepage</span>
+		</div>
